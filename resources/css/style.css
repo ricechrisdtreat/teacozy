@@ -1,0 +1,117 @@
+/* Universal Styling */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Header/Navigation styling */
+
+header {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+}
+
+nav {
+  display: inline-block;
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10px;
+}
+
+span a {
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+/* Main Content Styling */
+
+.maincontent {
+  padding-top: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mission Styling */
+
+#mission {
+  padding-top: 70px;
+  background-image: url("/Users/chrisrice/projects/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+#mission h2,
+h4 {
+  display: block;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Featured Teas Styling */
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+#featured h2,
+h4 {
+  display: block;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.featurecontent {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.featurecontentitems {
+  display: block;
+}
+
+.featurecontent img {
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
