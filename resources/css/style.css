@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-/* Header/Navigation styling */
+/* Header/Navigation Styling */
 
 header {
   height: 69px;
@@ -78,6 +78,7 @@ h4 {
 }
 
 /* Featured Teas Styling */
+
 #featured {
   height: 700px;
   width: 1000px;
@@ -106,7 +107,7 @@ h4 {
   text-align: center;
 }
 
-.featurecontentitems {
+.featureitems {
   display: block;
 }
 
@@ -114,4 +115,53 @@ h4 {
   height: 200px;
   display: block;
   margin: 10px;
+}
+
+/* Featured Teas Styling */
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  background-image: url("/Users/chrisrice/projects/teacozy/resources/images/img-locations-background.jpg");
+  text-align: center;
+  margin: 0;
+}
+
+#locations h2 {
+  display: block;
+  width: 1200px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.locationcontent {
+  display: flex;
+  justify-content: center;
+}
+
+.locationitems {
+  width: 300px;
+  margin: 5px 20px;
+  display: block;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+}
+
+/* Contact Info Styling */
+
+#contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer Styling */
+
+footer {
+  display: block;
+  width: 100%;
+  margin-left: 20px;
+  text-align: left;
 }
